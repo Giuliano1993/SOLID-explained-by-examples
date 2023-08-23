@@ -9,8 +9,10 @@ class UserRepository{
     public function create($userData){
       $user = new User();
       $user->setUsername($userData->username);
-      $user->setEmail($userData->email);
       /* ... and so on ...*/
       return $this->saveToDb($user);
+    }
+    public function saveToDb(){
+	
     }
   }

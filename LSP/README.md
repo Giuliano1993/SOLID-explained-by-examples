@@ -1,4 +1,4 @@
-# L - Liskov Substitution Principle
+## L - Liskov Substitution Principle
 The Liskov Substitution Principle (LSP) can be expressed in multiple ways, with the simplest being:
 
 _Subclasses must be substitutable for their base class._

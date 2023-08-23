@@ -10,7 +10,7 @@ Let's try to understand it better. Let's suppose we are developing an applicatio
 
 Furthermore, in a real-world application, the rendering of information would appear with slight variations in various parts of the application. This would force us to modify and check all occurrences whenever we add a new content type, making the code fragile.
 
-So, how can we solve this issue? The solution lies in working with abstractions. In the case of PHP, which we are working with, what we need is an `Interface`. This is because an `Interface` defines a set of methods that must be implemented by the classes that use it, providing a blueprint to follow. We can then achieve the code shown in the second image 😎.
+So, how can we solve this issue? The solution lies in working with abstractions. In the case of PHP, which we are working with, what we need is an `Interface`. This is because an `Interface` defines a set of methods that must be implemented by the classes that use it, providing a blueprint to follow. We can then achieve the code shown [here](./OCP3.php) 😎.
 
 Using the `Media` interface, we define the methods that each implementing class must develop. This way, even when we add other types of multimedia content, the `renderInformations()` function will no longer be modified; we will simply create a new class that implements the `Media` interface.
 

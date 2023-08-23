@@ -1,4 +1,4 @@
-# D - Dependency Inversion Principle
+## D - Dependency Inversion Principle
 
 The Dependency Inversion Principle tells us that:
 
