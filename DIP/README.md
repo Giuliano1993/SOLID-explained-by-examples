@@ -16,7 +16,7 @@ In [this snippet](./DIP1.php), the CheckoutController, our high-level module, di
 
 How to solve this issue?
 
-It's sufficient to introduce an interface that acts as an intermediary between the CheckoutController and the StripeProvider, like you see [here](./DIP2.php). This way, the Controller will only need to call the methods provided by the interface, regardless of how they are implemented. Additionally, we are free to have multiple providers, one for each payment method, implementing their respective logics without altering the previously functional code.
+It's enough to introduce an interface that acts as an intermediary between the CheckoutController and the StripeProvider, like you see [here](./DIP2.php). This way, the Controller will only need to call the methods provided by the Interface, regardless of how they are implemented. Additionally, we are free to have multiple provider classes, one for each payment method, implementing their respective logics without altering the previously functional code.
 
 This approach respects both the DIP and the OCP, making the code stable and maintainable.
 

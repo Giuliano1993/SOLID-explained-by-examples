@@ -31,5 +31,5 @@ It's essential to start from here because all of us (junior and senior developer
 - [S - Single responsibility Principle](./SRP/README.md)
 - [O - Open-Closed Principle](./OCP/README.md)
 - [L - Liskov Substitution Principle](./LSP/README.md)
-- [I - Interface Segregation Principle]()
-- [D - Dependency Inversion Principle]()
+- [I - Interface Segregation Principle](./ISP/README.md)
+- [D - Dependency Inversion Principle](./DIP/README.md)
