@@ -13,6 +13,6 @@ Consider the two classes, "Rectangle" and "Square," in the first image. It might
 
 But what happens when, during testing, we pass an instance of "Square" instead of "Rectangle" to the "testArea()" function in the second image? We receive two different answers, highlighting that "Square" doesn't pass the test and isn't substitutable for "Rectangle" as expected. The Liskov Substitution Principle is violated.
 
-From this, we can understand a few things. First, "Square" doesn't derive from "Rectangle." They share some aspects that could be included in a single abstraction, but one isn't derived from the other (we'll discuss Factoring and its connection with this principle later).
+From this, we can understand a few things. First, "Square" doesn't derive from "Rectangle." They share some aspects that could be included in a single abstraction, but one isn't derived from the other.
 
 Second, violations of the Liskov Substitution Principle are detectable only when the fragility of our code becomes apparent. This type of fragility is tied to how we use the classes we write/have at our disposal. It might surface on the first day or never at all.
