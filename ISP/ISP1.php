@@ -2,7 +2,7 @@
 
 // this interface does not comply the ISP:
 // if a create a server instance for a server that does not use my sql
-// every mysql related function would we pointless
+// every mysql related function would be pointless
 // moreover, every change to the mysql logic would involve also non-mysql servers
 interface Server{
 
